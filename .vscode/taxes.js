@@ -1,5 +1,5 @@
 
-let netIncome = 150000;
+let netIncome = 85000;
 let standardDeduction=12550;
 let fouroOneK= 6000
 let otherDeductions = 0;
@@ -20,7 +20,8 @@ function calcTaxes(taxableIncome) {
 
     console.log('Your Taxable Income is ' + taxableIncome + '.' +
     ' You owe ' + taxAmt + 
-    ' in taxes'+ ' and your highest tax bracket is bracket number ' + (myTaxBracket+1) + '. Goodluck.')
+    ' in taxes'+ ' and your highest tax bracket is bracket number ' 
+    + (myTaxBracket+1) + '. Goodluck.')
 
 }  
    
